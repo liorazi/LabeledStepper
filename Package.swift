@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "LabeledStepper",
     platforms: [
-        .iOS(.v13),
+        .iOS(.v15),
         // TODO: Should adapt colors for macOS
         // .macOS(.v10_15)
     ],
