@@ -85,6 +85,7 @@ public struct LabeledStepper: View {
                     .padding([.top, .bottom], 8)
 
                 Text("\(value)")
+                    .monospacedDigit()
                     .foregroundColor(style.valueColor)
                     .frame(width: style.labelWidth, height: style.height)
 
